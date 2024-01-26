@@ -9,7 +9,7 @@ requests
 bs4
 tensorflow
 ultralytics
-opencv-python-headless
+opencv-python
 matplotlib
 gunicorn
 gevent
