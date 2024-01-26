@@ -13,3 +13,4 @@ opencv-python
 matplotlib
 gunicorn
 gevent
+streamlit
