@@ -17,6 +17,7 @@ def index():
     response = requests.get(img_url, stream=True)
     img_array = np.asarray(bytearray(response.content), dtype=np.uint8)
     img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
+    
     print(img_url)
 
     classes_ = {0: 'noti', 1: 'pop'}

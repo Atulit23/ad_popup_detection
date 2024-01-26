@@ -9,5 +9,8 @@ requests
 bs4
 tensorflow
 ultralytics
-cv2
+opencv-python
 matplotlib
+gunicorn
+gevent
+streamlit
